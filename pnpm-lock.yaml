@@ -1,0 +1,70 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      ini:
+        specifier: ^2.0.0
+        version: 2.0.0
+      node-watch:
+        specifier: ^0.7.3
+        version: 0.7.4
+      nodejs-websocket:
+        specifier: ^1.7.2
+        version: 1.7.2
+      vm2:
+        specifier: ^3.9.9
+        version: 3.9.19
+
+packages:
+
+  acorn-walk@8.3.4:
+    resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
+    engines: {node: '>=0.4.0'}
+
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  ini@2.0.0:
+    resolution: {integrity: sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==}
+    engines: {node: '>=10'}
+
+  node-watch@0.7.4:
+    resolution: {integrity: sha512-RinNxoz4W1cep1b928fuFhvAQ5ag/+1UlMDV7rbyGthBIgsiEouS4kvRayvvboxii4m8eolKOIBo3OjDqbc+uQ==}
+    engines: {node: '>=6'}
+
+  nodejs-websocket@1.7.2:
+    resolution: {integrity: sha512-PFX6ypJcCNDs7obRellR0DGTebfUhw1SXGKe2zpB+Ng1DQJhdzbzx1ob+AvJCLzy2TJF4r8cCDqMQqei1CZdPQ==}
+    engines: {node: '>=4'}
+
+  vm2@3.9.19:
+    resolution: {integrity: sha512-J637XF0DHDMV57R6JyVsTak7nIL8gy5KH4r1HiwWLf/4GBbb5MKL5y7LpmF4A8E2nR6XmzpmMFQ7V7ppPTmUQg==}
+    engines: {node: '>=6.0'}
+    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
+    hasBin: true
+
+snapshots:
+
+  acorn-walk@8.3.4:
+    dependencies:
+      acorn: 8.14.0
+
+  acorn@8.14.0: {}
+
+  ini@2.0.0: {}
+
+  node-watch@0.7.4: {}
+
+  nodejs-websocket@1.7.2: {}
+
+  vm2@3.9.19:
+    dependencies:
+      acorn: 8.14.0
+      acorn-walk: 8.3.4

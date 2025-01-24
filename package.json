@@ -1,0 +1,15 @@
+{
+  "name": "local-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ini": "^2.0.0",
+    "node-watch": "^0.7.3",
+    "nodejs-websocket": "^1.7.2",
+    "vm2": "^3.9.9"
+  }
+}
